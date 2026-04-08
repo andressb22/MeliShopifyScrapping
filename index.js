@@ -1,5 +1,5 @@
 import express from "express";
-import {runScraping} from "./scraping.js"
+import {runScraping} from "./scrapping.js"
   
 const app = express();
 
