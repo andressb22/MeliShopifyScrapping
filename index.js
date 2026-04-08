@@ -1,5 +1,6 @@
 import express from "express";
-
+import {runScraping} from "./scraping.js"
+  
 const app = express();
 
 app.get("/scrape", async (req, res) => {
